@@ -1,0 +1,42 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Like",
+      "data": {
+        "question": "",
+        "luis intent": "",
+        "luis score": null,
+        "qna answer": "",
+        "qna score": null,
+        "user": "",
+        "date time": "",
+        "choice": "like"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Dislike",
+      "data": {
+        "question": "",
+        "luis intent": "",
+        "luis score": null,
+        "qna answer": "",
+        "qna score": null,
+        "user": "",
+        "date time": "",
+        "choice": "dislike"
+      }
+    }
+  ]
+}

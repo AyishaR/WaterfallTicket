@@ -1,0 +1,1587 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+        "name": "Bot"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "id": "d4af6351-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:51:55+05:30",
+    "recipient": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2019-08-23T10:21:55.077Z",
+    "from": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "serviceUrl": "http://localhost:61043"
+  },
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "df198163-843a-4be1-b577-a0011c57cde0",
+        "name": "User"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "id": "d6dd18c0-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:51:58+05:30",
+    "recipient": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2019-08-23T10:21:58.732Z",
+    "from": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "serviceUrl": "http://localhost:61043"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "text": "_Hey! I am Blue!_",
+    "inputHint": "acceptingInput",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "d6dd18c0-c58f-11e9-9220-2d645344be62",
+    "id": "d788c210-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:51:59+05:30",
+    "timestamp": "2019-08-23T10:21:59.857Z",
+    "locale": "en-US"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "inputHint": "acceptingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Raise a ticket",
+          "value": "Raise a ticket"
+        },
+        {
+          "type": "imBack",
+          "title": "Colaboratory",
+          "value": "Colaboratory"
+        }
+      ]
+    },
+    "attachments": [],
+    "entities": [],
+    "replyToId": "d6dd18c0-c58f-11e9-9220-2d645344be62",
+    "id": "d78e6760-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:51:59+05:30",
+    "timestamp": "2019-08-23T10:21:59.893Z",
+    "locale": "en-US"
+  },
+  {
+    "text": "Colaboratory",
+    "textFormat": "plain",
+    "type": "message",
+    "channelData": {
+      "clientActivityID": "15665557249350.2fccqajdwgn"
+    },
+    "channelId": "emulator",
+    "from": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "timestamp": "2019-08-23T10:22:04.940Z",
+    "entities": [
+      {
+        "requiresBotState": true,
+        "supportsListening": true,
+        "supportsTts": true,
+        "type": "ClientCapabilities"
+      }
+    ],
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "id": "da9083d0-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:04+05:30",
+    "recipient": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:61043"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-08-23T10:22:06.556Z",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "da9083d0-c58f-11e9-9220-2d645344be62",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "Colaboratory",
+        "alteredText": null,
+        "intents": {
+          "None": {
+            "score": 0.9462958
+          },
+          "cancel": {
+            "score": 0.0334463269
+          },
+          "logout": {
+            "score": 0.0255838763
+          },
+          "service-now-ticket": {
+            "score": 0.00099694
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "119df429-ca5e-4ed6-85be-a741076c4a94"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "Timeout": 100000,
+        "TimezoneOffset": null,
+        "LogPersonalInformation": false
+      },
+      "luisResult": {
+        "query": "Colaboratory",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "None",
+          "score": 0.9462958
+        },
+        "intents": [
+          {
+            "intent": "None",
+            "score": 0.9462958
+          },
+          {
+            "intent": "cancel",
+            "score": 0.0334463269
+          },
+          {
+            "intent": "logout",
+            "score": 0.0255838763
+          },
+          {
+            "intent": "service-now-ticket",
+            "score": 0.00099694
+          }
+        ],
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null,
+        "connectedServiceResult": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "db86f1c0-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:06+05:30",
+    "locale": "en-US"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-08-23T10:22:07.458Z",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "da9083d0-c58f-11e9-9220-2d645344be62",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "Colaboratory",
+        "alteredText": null,
+        "intents": {
+          "None": {
+            "score": 0.9462958
+          },
+          "cancel": {
+            "score": 0.0334463269
+          },
+          "logout": {
+            "score": 0.0255838763
+          },
+          "service-now-ticket": {
+            "score": 0.00099694
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "119df429-ca5e-4ed6-85be-a741076c4a94"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "Timeout": 100000,
+        "TimezoneOffset": null,
+        "LogPersonalInformation": false
+      },
+      "luisResult": {
+        "query": "Colaboratory",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "None",
+          "score": 0.9462958
+        },
+        "intents": [
+          {
+            "intent": "None",
+            "score": 0.9462958
+          },
+          {
+            "intent": "cancel",
+            "score": 0.0334463269
+          },
+          {
+            "intent": "logout",
+            "score": 0.0255838763
+          },
+          {
+            "intent": "service-now-ticket",
+            "score": 0.00099694
+          }
+        ],
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null,
+        "connectedServiceResult": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "dc109420-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:07+05:30",
+    "locale": "en-US"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "da9083d0-c58f-11e9-9220-2d645344be62",
+    "label": "QnAMaker Trace",
+    "valueType": "https://www.qnamaker.ai/schemas/trace",
+    "value": {
+      "message": {
+        "type": "message",
+        "id": "da9083d0-c58f-11e9-9220-2d645344be62",
+        "timestamp": "2019-08-23T10:22:04.94+00:00",
+        "localTimestamp": "2019-08-23T15:52:04+05:30",
+        "serviceUrl": "http://localhost:61043",
+        "channelId": "emulator",
+        "from": {
+          "id": "df198163-843a-4be1-b577-a0011c57cde0",
+          "name": "User",
+          "role": "user"
+        },
+        "conversation": {
+          "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+        },
+        "recipient": {
+          "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+          "name": "Bot",
+          "role": "bot"
+        },
+        "textFormat": "plain",
+        "locale": "en-US",
+        "text": "Colaboratory",
+        "entities": [
+          {
+            "type": "ClientCapabilities",
+            "requiresBotState": true,
+            "supportsListening": true,
+            "supportsTts": true
+          }
+        ],
+        "channelData": {
+          "clientActivityID": "15665557249350.2fccqajdwgn"
+        }
+      },
+      "queryResults": [
+        {
+          "questions": [
+            "What is Colaboratory?"
+          ],
+          "answer": "![icon](https://colab.research.google.com/img/colab_favicon.ico \"Colab\")\n ### COLABORATORY\n **Colaboratory** is a research tool for machine learning education and research. It’s a Jupyter notebook environment that requires no setup to use.",
+          "score": 0.77669996,
+          "metadata": [],
+          "source": "https://research.google.com/colaboratory/faq.html",
+          "id": 96
+        }
+      ],
+      "knowledgeBaseId": "c3594cfc-6601-4852-9866-c99507574bce",
+      "scoreThreshold": 0.3,
+      "top": 1,
+      "strictFilters": [],
+      "metadataBoost": []
+    },
+    "name": "QnAMaker",
+    "id": "dd2a4180-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:09+05:30",
+    "timestamp": "2019-08-23T10:22:09.304Z",
+    "locale": "en-US"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-08-23T10:22:10.186Z",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "da9083d0-c58f-11e9-9220-2d645344be62",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "Colaboratory",
+        "alteredText": null,
+        "intents": {
+          "None": {
+            "score": 0.9462958
+          },
+          "cancel": {
+            "score": 0.0334463269
+          },
+          "logout": {
+            "score": 0.0255838763
+          },
+          "service-now-ticket": {
+            "score": 0.00099694
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "119df429-ca5e-4ed6-85be-a741076c4a94"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "Timeout": 100000,
+        "TimezoneOffset": null,
+        "LogPersonalInformation": false
+      },
+      "luisResult": {
+        "query": "Colaboratory",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "None",
+          "score": 0.9462958
+        },
+        "intents": [
+          {
+            "intent": "None",
+            "score": 0.9462958
+          },
+          {
+            "intent": "cancel",
+            "score": 0.0334463269
+          },
+          {
+            "intent": "logout",
+            "score": 0.0255838763
+          },
+          {
+            "intent": "service-now-ticket",
+            "score": 0.00099694
+          }
+        ],
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null,
+        "connectedServiceResult": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "ddb0d6a0-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:10+05:30",
+    "locale": "en-US"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "text": "![icon](https://colab.research.google.com/img/colab_favicon.ico \"Colab\")\n ### COLABORATORY\n **Colaboratory** is a research tool for machine learning education and research. It’s a Jupyter notebook environment that requires no setup to use.",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Like",
+          "value": "Like"
+        },
+        {
+          "type": "imBack",
+          "title": "Dislike",
+          "value": "Dislike"
+        },
+        {
+          "type": "imBack",
+          "title": "Raise a ticket",
+          "value": "Raise a ticket"
+        },
+        {
+          "type": "imBack",
+          "title": "Colaboratory",
+          "value": "Colaboratory"
+        }
+      ]
+    },
+    "replyToId": "da9083d0-c58f-11e9-9220-2d645344be62",
+    "id": "ddba7390-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:10+05:30",
+    "timestamp": "2019-08-23T10:22:10.249Z",
+    "locale": "en-US"
+  },
+  {
+    "text": "what browsers are supported",
+    "textFormat": "plain",
+    "type": "message",
+    "channelData": {
+      "clientActivityID": "15665557510420.47wly77e2z2"
+    },
+    "channelId": "emulator",
+    "from": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "timestamp": "2019-08-23T10:22:31.047Z",
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "id": "ea1ff970-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:31+05:30",
+    "recipient": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:61043"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-08-23T10:22:32.097Z",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "ea1ff970-c58f-11e9-9220-2d645344be62",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "what browsers are supported",
+        "alteredText": null,
+        "intents": {
+          "service-now-ticket": {
+            "score": 0.160360143
+          },
+          "None": {
+            "score": 0.0626792163
+          },
+          "cancel": {
+            "score": 0.04121864
+          },
+          "logout": {
+            "score": 0.0249300022
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "119df429-ca5e-4ed6-85be-a741076c4a94"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "Timeout": 100000,
+        "TimezoneOffset": null,
+        "LogPersonalInformation": false
+      },
+      "luisResult": {
+        "query": "what browsers are supported",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "service-now-ticket",
+          "score": 0.160360143
+        },
+        "intents": [
+          {
+            "intent": "service-now-ticket",
+            "score": 0.160360143
+          },
+          {
+            "intent": "None",
+            "score": 0.0626792163
+          },
+          {
+            "intent": "cancel",
+            "score": 0.04121864
+          },
+          {
+            "intent": "logout",
+            "score": 0.0249300022
+          }
+        ],
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null,
+        "connectedServiceResult": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "eac03110-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:32+05:30",
+    "locale": "en-US"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-08-23T10:22:32.995Z",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "ea1ff970-c58f-11e9-9220-2d645344be62",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "what browsers are supported",
+        "alteredText": null,
+        "intents": {
+          "service-now-ticket": {
+            "score": 0.160360143
+          },
+          "None": {
+            "score": 0.0626792163
+          },
+          "cancel": {
+            "score": 0.04121864
+          },
+          "logout": {
+            "score": 0.0249300022
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "119df429-ca5e-4ed6-85be-a741076c4a94"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "Timeout": 100000,
+        "TimezoneOffset": null,
+        "LogPersonalInformation": false
+      },
+      "luisResult": {
+        "query": "what browsers are supported",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "service-now-ticket",
+          "score": 0.160360143
+        },
+        "intents": [
+          {
+            "intent": "service-now-ticket",
+            "score": 0.160360143
+          },
+          {
+            "intent": "None",
+            "score": 0.0626792163
+          },
+          {
+            "intent": "cancel",
+            "score": 0.04121864
+          },
+          {
+            "intent": "logout",
+            "score": 0.0249300022
+          }
+        ],
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null,
+        "connectedServiceResult": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "eb493730-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:32+05:30",
+    "locale": "en-US"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-08-23T10:22:33.960Z",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "ea1ff970-c58f-11e9-9220-2d645344be62",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "what browsers are supported",
+        "alteredText": null,
+        "intents": {
+          "service-now-ticket": {
+            "score": 0.160360143
+          },
+          "None": {
+            "score": 0.0626792163
+          },
+          "cancel": {
+            "score": 0.04121864
+          },
+          "logout": {
+            "score": 0.0249300022
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "119df429-ca5e-4ed6-85be-a741076c4a94"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "Timeout": 100000,
+        "TimezoneOffset": null,
+        "LogPersonalInformation": false
+      },
+      "luisResult": {
+        "query": "what browsers are supported",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "service-now-ticket",
+          "score": 0.160360143
+        },
+        "intents": [
+          {
+            "intent": "service-now-ticket",
+            "score": 0.160360143
+          },
+          {
+            "intent": "None",
+            "score": 0.0626792163
+          },
+          {
+            "intent": "cancel",
+            "score": 0.04121864
+          },
+          {
+            "intent": "logout",
+            "score": 0.0249300022
+          }
+        ],
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null,
+        "connectedServiceResult": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "ebdc7680-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:33+05:30",
+    "locale": "en-US"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "ea1ff970-c58f-11e9-9220-2d645344be62",
+    "label": "QnAMaker Trace",
+    "valueType": "https://www.qnamaker.ai/schemas/trace",
+    "value": {
+      "message": {
+        "type": "message",
+        "id": "ea1ff970-c58f-11e9-9220-2d645344be62",
+        "timestamp": "2019-08-23T10:22:31.047+00:00",
+        "localTimestamp": "2019-08-23T15:52:31+05:30",
+        "serviceUrl": "http://localhost:61043",
+        "channelId": "emulator",
+        "from": {
+          "id": "df198163-843a-4be1-b577-a0011c57cde0",
+          "name": "User",
+          "role": "user"
+        },
+        "conversation": {
+          "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+        },
+        "recipient": {
+          "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+          "name": "Bot",
+          "role": "bot"
+        },
+        "textFormat": "plain",
+        "locale": "en-US",
+        "text": "what browsers are supported",
+        "channelData": {
+          "clientActivityID": "15665557510420.47wly77e2z2"
+        }
+      },
+      "queryResults": [
+        {
+          "questions": [
+            "What browsers are supported?"
+          ],
+          "answer": "Colaboratory works with most major browsers and is most thoroughly tested with the latest versions of \n * [Chrome](https://www.google.com/chrome/browser/desktop/index.html)\n * [Firefox](https://www.mozilla.org/en-US/firefox/) \n * [Safari](https://www.apple.com/safari/).",
+          "score": 1,
+          "metadata": [],
+          "source": "https://research.google.com/colaboratory/faq.html",
+          "id": 97
+        }
+      ],
+      "knowledgeBaseId": "c3594cfc-6601-4852-9866-c99507574bce",
+      "scoreThreshold": 0.3,
+      "top": 1,
+      "strictFilters": [],
+      "metadataBoost": []
+    },
+    "name": "QnAMaker",
+    "id": "ec432790-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:34+05:30",
+    "timestamp": "2019-08-23T10:22:34.633Z",
+    "locale": "en-US"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-08-23T10:22:35.525Z",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "ea1ff970-c58f-11e9-9220-2d645344be62",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "what browsers are supported",
+        "alteredText": null,
+        "intents": {
+          "service-now-ticket": {
+            "score": 0.160360143
+          },
+          "None": {
+            "score": 0.0626792163
+          },
+          "cancel": {
+            "score": 0.04121864
+          },
+          "logout": {
+            "score": 0.0249300022
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "119df429-ca5e-4ed6-85be-a741076c4a94"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "Timeout": 100000,
+        "TimezoneOffset": null,
+        "LogPersonalInformation": false
+      },
+      "luisResult": {
+        "query": "what browsers are supported",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "service-now-ticket",
+          "score": 0.160360143
+        },
+        "intents": [
+          {
+            "intent": "service-now-ticket",
+            "score": 0.160360143
+          },
+          {
+            "intent": "None",
+            "score": 0.0626792163
+          },
+          {
+            "intent": "cancel",
+            "score": 0.04121864
+          },
+          {
+            "intent": "logout",
+            "score": 0.0249300022
+          }
+        ],
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null,
+        "connectedServiceResult": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "eccb4350-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:35+05:30",
+    "locale": "en-US"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "text": "Colaboratory works with most major browsers and is most thoroughly tested with the latest versions of \n * [Chrome](https://www.google.com/chrome/browser/desktop/index.html)\n * [Firefox](https://www.mozilla.org/en-US/firefox/) \n * [Safari](https://www.apple.com/safari/).",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Like",
+          "value": "Like"
+        },
+        {
+          "type": "imBack",
+          "title": "Dislike",
+          "value": "Dislike"
+        },
+        {
+          "type": "imBack",
+          "title": "Raise a ticket",
+          "value": "Raise a ticket"
+        },
+        {
+          "type": "imBack",
+          "title": "Colaboratory",
+          "value": "Colaboratory"
+        }
+      ]
+    },
+    "replyToId": "ea1ff970-c58f-11e9-9220-2d645344be62",
+    "id": "eccd3f20-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:35+05:30",
+    "timestamp": "2019-08-23T10:22:35.537Z",
+    "locale": "en-US"
+  },
+  {
+    "text": "difference between jupyter and colaboratory",
+    "textFormat": "plain",
+    "type": "message",
+    "channelData": {
+      "clientActivityID": "15665557709500.5hwczywe3su"
+    },
+    "channelId": "emulator",
+    "from": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "timestamp": "2019-08-23T10:22:50.953Z",
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "id": "f5fd6390-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:50+05:30",
+    "recipient": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:61043"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-08-23T10:22:51.850Z",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "f5fd6390-c58f-11e9-9220-2d645344be62",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "difference between jupyter and colaboratory",
+        "alteredText": null,
+        "intents": {
+          "None": {
+            "score": 0.436573923
+          },
+          "service-now-ticket": {
+            "score": 0.107123718
+          },
+          "logout": {
+            "score": 0.008113928
+          },
+          "cancel": {
+            "score": 0.00592609774
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "119df429-ca5e-4ed6-85be-a741076c4a94"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "Timeout": 100000,
+        "TimezoneOffset": null,
+        "LogPersonalInformation": false
+      },
+      "luisResult": {
+        "query": "difference between jupyter and colaboratory",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "None",
+          "score": 0.436573923
+        },
+        "intents": [
+          {
+            "intent": "None",
+            "score": 0.436573923
+          },
+          {
+            "intent": "service-now-ticket",
+            "score": 0.107123718
+          },
+          {
+            "intent": "logout",
+            "score": 0.008113928
+          },
+          {
+            "intent": "cancel",
+            "score": 0.00592609774
+          }
+        ],
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null,
+        "connectedServiceResult": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "f68642a0-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:51+05:30",
+    "locale": "en-US"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-08-23T10:22:52.911Z",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "f5fd6390-c58f-11e9-9220-2d645344be62",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "difference between jupyter and colaboratory",
+        "alteredText": null,
+        "intents": {
+          "None": {
+            "score": 0.436573923
+          },
+          "service-now-ticket": {
+            "score": 0.107123718
+          },
+          "logout": {
+            "score": 0.008113928
+          },
+          "cancel": {
+            "score": 0.00592609774
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "119df429-ca5e-4ed6-85be-a741076c4a94"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "Timeout": 100000,
+        "TimezoneOffset": null,
+        "LogPersonalInformation": false
+      },
+      "luisResult": {
+        "query": "difference between jupyter and colaboratory",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "None",
+          "score": 0.436573923
+        },
+        "intents": [
+          {
+            "intent": "None",
+            "score": 0.436573923
+          },
+          {
+            "intent": "service-now-ticket",
+            "score": 0.107123718
+          },
+          {
+            "intent": "logout",
+            "score": 0.008113928
+          },
+          {
+            "intent": "cancel",
+            "score": 0.00592609774
+          }
+        ],
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null,
+        "connectedServiceResult": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "f72827f0-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:52+05:30",
+    "locale": "en-US"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-08-23T10:22:53.788Z",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "f5fd6390-c58f-11e9-9220-2d645344be62",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "difference between jupyter and colaboratory",
+        "alteredText": null,
+        "intents": {
+          "None": {
+            "score": 0.436573923
+          },
+          "service-now-ticket": {
+            "score": 0.107123718
+          },
+          "logout": {
+            "score": 0.008113928
+          },
+          "cancel": {
+            "score": 0.00592609774
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "119df429-ca5e-4ed6-85be-a741076c4a94"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "Timeout": 100000,
+        "TimezoneOffset": null,
+        "LogPersonalInformation": false
+      },
+      "luisResult": {
+        "query": "difference between jupyter and colaboratory",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "None",
+          "score": 0.436573923
+        },
+        "intents": [
+          {
+            "intent": "None",
+            "score": 0.436573923
+          },
+          {
+            "intent": "service-now-ticket",
+            "score": 0.107123718
+          },
+          {
+            "intent": "logout",
+            "score": 0.008113928
+          },
+          {
+            "intent": "cancel",
+            "score": 0.00592609774
+          }
+        ],
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null,
+        "connectedServiceResult": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "f7adf9c0-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:53+05:30",
+    "locale": "en-US"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "f5fd6390-c58f-11e9-9220-2d645344be62",
+    "label": "QnAMaker Trace",
+    "valueType": "https://www.qnamaker.ai/schemas/trace",
+    "value": {
+      "message": {
+        "type": "message",
+        "id": "f5fd6390-c58f-11e9-9220-2d645344be62",
+        "timestamp": "2019-08-23T10:22:50.953+00:00",
+        "localTimestamp": "2019-08-23T15:52:50+05:30",
+        "serviceUrl": "http://localhost:61043",
+        "channelId": "emulator",
+        "from": {
+          "id": "df198163-843a-4be1-b577-a0011c57cde0",
+          "name": "User",
+          "role": "user"
+        },
+        "conversation": {
+          "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+        },
+        "recipient": {
+          "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+          "name": "Bot",
+          "role": "bot"
+        },
+        "textFormat": "plain",
+        "locale": "en-US",
+        "text": "difference between jupyter and colaboratory",
+        "channelData": {
+          "clientActivityID": "15665557709500.5hwczywe3su"
+        }
+      },
+      "queryResults": [
+        {
+          "questions": [
+            "What is the difference between Jupyter and Colaboratory?"
+          ],
+          "answer": "[Jupyter](https://jupyter.org/)|[Colaboratory](https://colab.research.google.com/)\n---|---\nIt is the open-source project on which Colaboratory is based.| Colaboratory allows you to use and share Jupyter notebooks with others without having to download, install, or run anything on your own computer other than a browser.",
+          "score": 0.8267,
+          "metadata": [],
+          "source": "https://research.google.com/colaboratory/faq.html",
+          "id": 99
+        }
+      ],
+      "knowledgeBaseId": "c3594cfc-6601-4852-9866-c99507574bce",
+      "scoreThreshold": 0.3,
+      "top": 1,
+      "strictFilters": [],
+      "metadataBoost": []
+    },
+    "name": "QnAMaker",
+    "id": "f8259ac0-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:54+05:30",
+    "timestamp": "2019-08-23T10:22:54.572Z",
+    "locale": "en-US"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2019-08-23T10:22:55.465Z",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "replyToId": "f5fd6390-c58f-11e9-9220-2d645344be62",
+    "label": "Luis Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "difference between jupyter and colaboratory",
+        "alteredText": null,
+        "intents": {
+          "None": {
+            "score": 0.436573923
+          },
+          "service-now-ticket": {
+            "score": 0.107123718
+          },
+          "logout": {
+            "score": 0.008113928
+          },
+          "cancel": {
+            "score": 0.00592609774
+          }
+        },
+        "entities": {
+          "$instance": {}
+        }
+      },
+      "luisModel": {
+        "ModelID": "119df429-ca5e-4ed6-85be-a741076c4a94"
+      },
+      "luisOptions": {
+        "BingSpellCheckSubscriptionKey": null,
+        "IncludeAllIntents": null,
+        "IncludeInstanceData": null,
+        "Log": null,
+        "SpellCheck": null,
+        "Staging": null,
+        "Timeout": 100000,
+        "TimezoneOffset": null,
+        "LogPersonalInformation": false
+      },
+      "luisResult": {
+        "query": "difference between jupyter and colaboratory",
+        "alteredQuery": null,
+        "topScoringIntent": {
+          "intent": "None",
+          "score": 0.436573923
+        },
+        "intents": [
+          {
+            "intent": "None",
+            "score": 0.436573923
+          },
+          {
+            "intent": "service-now-ticket",
+            "score": 0.107123718
+          },
+          {
+            "intent": "logout",
+            "score": 0.008113928
+          },
+          {
+            "intent": "cancel",
+            "score": 0.00592609774
+          }
+        ],
+        "entities": [],
+        "compositeEntities": null,
+        "sentimentAnalysis": null,
+        "connectedServiceResult": null
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "f8addd90-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:55+05:30",
+    "locale": "en-US"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:61043",
+    "channelId": "emulator",
+    "from": {
+      "id": "63143040-a73a-11e9-911b-ab2e5fbea952",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "d4aa8150-c58f-11e9-884a-0b5ee7d41d9b|livechat"
+    },
+    "recipient": {
+      "id": "df198163-843a-4be1-b577-a0011c57cde0",
+      "role": "user"
+    },
+    "text": "[Jupyter](https://jupyter.org/)|[Colaboratory](https://colab.research.google.com/)\n---|---\nIt is the open-source project on which Colaboratory is based.| Colaboratory allows you to use and share Jupyter notebooks with others without having to download, install, or run anything on your own computer other than a browser.",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Like",
+          "value": "Like"
+        },
+        {
+          "type": "imBack",
+          "title": "Dislike",
+          "value": "Dislike"
+        },
+        {
+          "type": "imBack",
+          "title": "Raise a ticket",
+          "value": "Raise a ticket"
+        },
+        {
+          "type": "imBack",
+          "title": "Colaboratory",
+          "value": "Colaboratory"
+        }
+      ]
+    },
+    "replyToId": "f5fd6390-c58f-11e9-9220-2d645344be62",
+    "id": "f8afb250-c58f-11e9-9220-2d645344be62",
+    "localTimestamp": "2019-08-23T15:52:55+05:30",
+    "timestamp": "2019-08-23T10:22:55.477Z",
+    "locale": "en-US"
+  }
+]
